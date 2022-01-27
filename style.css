@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-image: url(./images/image-hero.jpg);
+  background-size: cover;
+}
+
+.nav-bar {
+  padding-top: 30px;
+  margin-left: 285px;
+  margin-right: 450px;
+  float: left;
+}
+
+.menu {
+  width: 25%;
+  padding-top: 35px;
+  /* float: right; */
+}
+
+.menu li {
+  float: left;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  opacity: 0.5;
+}
+
+.hero-heading {
+  /* height: 50px; */
+  width: 750px;
+  padding-top: 210px;
+  padding-left: 35px;
+}
+
+.hero-heading h1 {
+  color: white;
+  margin-left: 13rem;
+  font-size: 70px;
+  border: 2px solid white;
+  padding: 15px 40px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+.info-img-container > img {
+  width: 650px;
+}
+.info-text-container {
+  height: max-content;
+  width: max-content;
+  margin-left: -15rem;
+  background-color: #fff;
+  padding: 15px 30px;
+}
+.info-text-container > h1 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  color: black;
+  margin-bottom: 15px;
+}
+.info-text-container > p {
+  opacity: 0.6;
+}
+
+.creations {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10vh;
+  justify-content: space-between;
+}
+
+.creations h1 {
+  color: black;
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.creations button {
+  padding: 10px 34px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.creations button:hover {
+  background-color: black;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(2, 450px);
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 30px;
+  margin-bottom: 15vh;
+}
+
+.grid h3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.item-1 {
+  background-image: url(./images/image-deep-earth.jpg);
+}
+
+.item-2 {
+  background-image: url(./images/image-night-arcade.jpg);
+}
+
+.item-3 {
+  background-image: url(./images/image-soccer-team.jpg);
+}
+
+.item-4 {
+  background-image: url(./images/image-grid.jpg);
+}
+
+.item-5 {
+  background-image: url(./images/image-from-above.jpg);
+}
+
+.item-6 {
+  background-image: url(./images/image-pocket-borealis.jpg);
+}
+
+.item-7 {
+  background-image: url(./images/image-curiosity.jpg);
+}
+
+.item-8 {
+  background-image: url(./images/image-fisheye.jpg);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px 40px;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social img {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.row-1 > img {
+  margin-right: 50rem;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40rem;
+}
+
+.menu-2 li {
+  float: left;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.menu-2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.menu-2 a:hover {
+  opacity: 0.5;
+}
+
+.copy {
+  margin-left: 600px;
+}
